@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header, main, footer {
+    border: black solid 1px;
+    width: 1040px;
+    margin:0 auto;
+}
+
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+
+    
+
+}
+
+header{
+    height:120px;   
+}
+
+main{
+    padding-bottom: 100px;
+    
+    
+    border:0;
+}
+
+footer{
+    margin: 100px auto 0;
+    position: relative;
+    height: 100px;
+
+}
+
+body{
+    background-color: #380577;
+    color: white;
+}
+
+header{
+    height:120px;
+    width: 1040px;
+    margin:0 auto;
+    border: 0;
+}
+
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    border: 0;
+    width: 1040px;
+
+}
+
+.main_img-float{
+    width: 550px;
+    padding-right: 40px;
+    float: left;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+
+}
+
+.services__img {
+    width: 240px;
+    height: 200px;
+    border: 10px;
+    border-radius: 50px;
+    box-shadow: 30px;
+
+}
+
+.services__item {
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 240px;
+    float: left;
+   
+}
+
+.services { 
+    padding: 35px;
+    border-radius: 5px;
+
+}
+
+.services a{
+    text-decoration: none;
+    color: pink;
+}
+
+.services a:hover{
+    text-decoration: underline;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logotype {
+    float: right;
+    width: 50px;
+    padding: 5px;
+    padding-top: -5px;
+
+}
+
+
+.h1--invisible{
+    visibility: hidden;
+}
+
+.m {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.humans {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.blocks {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    block-size: 150px;
+}
+
+.visitka {
+    
+}
+
+.compani {
+    text-align: center;
+    
+}
+
+.m1 {
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.m1:visited {
+    color: white;
+}
+
+.komanda {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.colortext {
+    color: rgb(218, 0, 145);
+}
+
+.pismo {
+    color: white;
+}
+
+.kontakt1 {
+    text-align: center;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float:left
+}
+
+.footer__icons {
+    display: inline-block;
+    max-width: 335px;
+    margin-left: 850px;
+}
+
+.footer__block {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer__img {
+    width: 50px;
+}
+
+.h2 {
+    text-transform: uppercase;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.mark {
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    src: url(/uslugi.html);
+    font-weight: 400;
+}
+
+#mainnav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 38px;
+    
+}
+
+#mainnav li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: inline;
+    padding: 20px;
+    color: white;
+    
+}
+
+#mainnav a{
+    text-decoration: none;
+}
+
+#mainnav a:hover{
+    text-decoration: underline;
+}
+
+#mainnav li.active a{
+    font-weight: bold;
+}
+#mainnav a{
+    color: white;
+}
+
+.new::after{
+    font-size: 10px;
+    vertical-align: super;
+    background-color: red;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+
